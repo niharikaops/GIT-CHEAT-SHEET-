@@ -1,0 +1,25 @@
+first you need to clone (i.e; copying the file from remote git repo to your local machine) the repository 
+you can see https/ssh URL click https and copy the URL of the specific repository you want to "CLONE"
+goto command prompt on your machine and type " git clone "copy the previous url here"
+at this point your command prompt should show as users/"your machine username"
+type "git status" just to be sure about your path
+create a fresh branch and name it related to the changes you are making or your ticket ID 
+in order to enter into that particular branch you need to checkout just as your shooping cart so type command "git checkout "branchname" "
+next make changes to your branch code and make sure to save it "ctrl+s"
+next use command " git add "filename" (the file which you edited in the above step 
+next use "git commit -m "your message here" (like example: I changed storage from 15 to 20 GB)
+next use command " git push origin "branchname" the name which you gave while creating the branch don't confuse between branch name and filename**********
+you will get a url copy that and post it your team group for approvals atleast 2 approvals are needed to merge the code in real life projects after two approvals you will see merge button press that to push your changes into master/main branch
+next come to your code editor scroll up to view terminal there enter git pull origin at this point your changes should reflect here
+git merge main/master this is used when another team member made changes and you still didnot commit your changes but you want his/her changes reflected on your branch inorder to make your changes
+other commands: git stash used to undo any command used previously 
+in 14th step you path should end with your branchname make sure that by using git status command.
+
+
+
+
+
+
+
+
+🦄
